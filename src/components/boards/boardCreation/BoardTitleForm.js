@@ -63,8 +63,8 @@ let BoardTitleForm = (props) => {
                 />
             </form>
             <ButtonWrapper>
-                <CancelButton onClick={() => cancelAction()}>Cancel</CancelButton>
-                <SubmitButton onClick={handleSubmit} type="button">Create</SubmitButton>
+                <CancelButton onClick={() => cancelAction()}>キャンセル</CancelButton>
+                <SubmitButton onClick={handleSubmit} type="button">作成</SubmitButton>
             </ButtonWrapper>
         </div>
     )

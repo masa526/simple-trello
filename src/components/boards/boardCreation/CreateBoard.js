@@ -37,7 +37,7 @@ const Text = styled.h3`
 const CreateBoard = ({ createNewBoard }) => {
     return (
         <Wrapper onClick={ () => createNewBoard() }>
-            <Text>Create a new board...</Text>
+            <Text>ボードを作成する</Text>
         </Wrapper>
     )
 }

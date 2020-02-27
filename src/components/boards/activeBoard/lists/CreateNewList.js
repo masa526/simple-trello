@@ -30,7 +30,7 @@ const Text = styled.h4`
 
 const CreateNewList = ({ addList }) => (
     <Wrapper onClick={addList}>
-        <Text>Add a list...</Text>
+        <Text>リストを追加する</Text>
     </Wrapper>
 )
 

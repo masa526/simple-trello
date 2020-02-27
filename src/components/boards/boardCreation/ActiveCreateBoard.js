@@ -64,7 +64,7 @@ class ActiveCreateBoard extends Component {
             <Wrapper>
 
                 <TopWrapper>
-                    <Title>Creating a board</Title>
+                    <Title>ボードを作成する</Title>
                     <CloseBoardIcon
                         onClick={() => cancelCreatingBoard()}
                         src={require('../../../Assets/closeIcon.svg')}
@@ -72,7 +72,7 @@ class ActiveCreateBoard extends Component {
                 </TopWrapper>
 
                 <BodyWrapper>
-                    <BoardNamingTitle>What shall we call the board?</BoardNamingTitle>
+                    <BoardNamingTitle>ボードの名前は？</BoardNamingTitle>
                     <BoardTitleForm
                         onSubmit={this.submit}
                         cancelAction={cancelCreatingBoard}

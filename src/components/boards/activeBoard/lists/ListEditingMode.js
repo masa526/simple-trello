@@ -27,7 +27,7 @@ class ListEditingMode extends Component {
                         name="listItem"
                         component={BoardTitleInput}
                         type="text"
-                        placeholder="add a list"
+                        placeholder="リストの名前"
                     />
                 </form>
                 <DisableListEditMode disableList={disableListEditMode} />
@@ -45,7 +45,7 @@ function validate(values) {
     let errors = {};
 
     if (!values.listItem) {
-        errors.listItem = 'give me a name!'
+        errors.listItem = '名前をつけて！'
     }
 
     return errors;
